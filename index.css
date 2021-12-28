@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+.website-icon{
+    font-family: "Brush Script MT", "Brush Script Std";
+    font-size: 30px;
+}
+.website-icon-color{
+    font-family: "Brush Script MT", "Brush Script Std";
+    font-size: 40px;
+    color: rgb(241, 57, 134);
+}
+
+.food-munch-logo {
+    width: 80px;
+    height: 70px;
+}
+.footer-number{
+    font-weight: 700; 
+}
+.footer-dribbble-icon{
+    color: palevioletred; 
+    font-weight: bold; 
+    font-size: 24px;
+}
+@media only screen and (max-width: 768px){
+    .footer-adjust-to-center{  
+        text-align: center;
+    }
+}
+@media only screen and (min-width: 769px){
+    .footer-adjust-to-end{  
+        text-align: end;
+    }
+}
+@media only screen and (max-width: 990px){
+    .sorting-button{  
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+    }
+    
+}
+.category-lists{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+#navItem1 {
+    color: #323f4b;
+    font-family: "Roboto";
+}
+
+#navItem2 {
+    color: #323f4b;
+    font-family: "Roboto";
+}
+
+#navItem3 {
+    color: #323f4b;
+    font-family: "Roboto";
+}
+
+#navItem4 {
+    color: #323f4b;
+    font-family: "Roboto";
+}
+
+.banner-section-bg-container {
+    background-color: #f9fbfe;
+    background-size: cover;
+}
+
+.banner-heading {
+    color: white;
+    font-family: "Roboto";
+    font-size: 45px;
+    font-weight: 300;
+}
+
+@media only screen and (min-width: 769px) {
+    .banner-top-margin{
+        margin-top: 80px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .healthy-food-section-description{
+        text-align: center;
+    }
+    .healthy-food-section-author{
+        text-align: center;
+    }
+    
+    .healthy-food-section-heading{
+        text-align: center;
+        }
+    .customs-button-alignment{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.custom-button {
+    color: white;
+    background-image: linear-gradient(rgb(247, 123, 144), rgb(245, 35, 116));
+    width: 100px;
+    height: 45px;
+    border-width: 0;
+    font-weight: 500;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+.custom-button-top{
+    color: white;
+    background-image: linear-gradient(rgb(247, 123, 144), rgb(245, 35, 116));
+    width: 180px;
+    height: 45px;
+    font-weight: 500;
+    border-width: 0;
+    border-radius: 8px;
+    margin-right: 10px;    
+}
+.custom-button-top-width{
+    width: 230px;
+}
+.explore-menu-section {
+    background-color: white;
+}
+
+.menu-item-image {
+    border-radius: 16px;
+}
+.menu-item-image-icon{
+    border-radius: 50px;
+    height: 26px;
+    width: 26px;
+}
+.badge{
+    border-radius: 3px;
+    background: #ccc;
+    color: #fff;
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 1;
+    padding: 2px 3px;
+}
+.menu-card-title {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    white-space: nowrap;
+    margin-left: 8px;
+    margin-top: 24px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    flex: 1;
+    color: #0d0c22;
+}
+.menu-card-heart{
+    color: #52504e;
+    font-family: "Roboto";
+    font-size: 12px;
+    margin-left: 0px;
+    font-weight: bold;
+    line-height: 20px;
+    white-space: nowrap;
+    
+}
+.menu-item-card {
+    border-radius: 16px;
+}
+
+.healthy-food-section {
+    background-color: #f9fbfe;
+}
+
+.healthy-food-section-img {
+    width: 270px;
+}
+
+.healthy-food-section-heading {
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.healthy-food-section-description {
+    color: #5a7184;
+    font-family: "Roboto";
+    font-size: 16px;
+}
+.healthy-food-section-author{
+    text-align: end;
+    color: #5a7184;
+    font-family: "Roboto";
+    font-size: 16px;
+}
+.signin-text{
+    color: rgb(248, 59, 147);
+    font-family: "Roboto";
+
+}
+.delivery-and-payment-section {
+    background-color: white;
+}
+
+.delivery-and-payment-section-img {
+    width: 400px;
+}

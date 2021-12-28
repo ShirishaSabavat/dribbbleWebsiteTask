@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/20c5629a29.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top pt-2 pb-2">
+        <div class="container-fluid">
+            <a class="website-icon navbar-brand order-2 order-lg-1 mr-4" href="#">
+                <!-- <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/food-munch-img.png" class="food-munch-logo" /> -->
+                dribbble
+            </a>
+            <button class="navbar-toggler order-1 order-lg-2" type="button" data-toggle="collapse"
+                data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse order-1 order-lg-2" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a style="font-weight: 600;" class="nav-link active text-secondary mr-3" id="navItem1" href="#">
+                        Inspriation
+                        <span class="sr-only">(current)</span>
+                    </a>
+                    <a style="font-weight: 600;" class="nav-link mr-2 text-secondary mr-3" href="#" id="navItem2">Find
+                        Work</a>
+                    <a style="font-weight: 600;" class="nav-link mr-2 text-secondary mr-3" href="#" id="navItem3">Learn
+                        Design</a>
+                    <a style="font-weight: 600;" class="nav-link mr-2 text-secondary mr-3" href="#" id="navItem4">Go
+                        Pro</a>
+                    <a style="font-weight: 600;" class="nav-link mr-2 text-secondary mr-3" href="#"
+                        id="navItem4">Marketplace</a>
+                    <a style="font-weight: 600;" class="nav-link mr-2 text-secondary mr-3" href="#" id="navItem4">Hire
+                        Designers</a>
+                </div>
+            </div>
+            <div class="order-3" id="navbarNavAltMarkups">
+                <div class="navbar-nav">
+                    <a style="font-weight: 600;" class="text-secondary d-none d-lg-block" href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="#5a7184"
+                            style="font-weight: 600;" class="bi bi-search mt-2 mr-4" viewBox="0 0 16 16">
+                            <path
+                                d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                        </svg>
+                    </a>
+                    <a class="text-secondary mt-2" href="#" id="navItem2">Sign in </a>
+                    <span class="text-secondary d-none d-lg-block mt-2 mr-2 ml-2">/</span>
+                    <a class="text-secondary d-none d-lg-block mt-2 mr-4" href="#" id="navItem2">Sign up </a>
+                    <button class="custom-button-top d-none d-lg-block">Start a free project</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="banner-section-bg-container">
+        <div class="container-fluid">
+            <div class="row ml-5 mr-5 pb-3 pt-3">
+                <div class="col-12 col-md-6 order-1 order-md-2 mt-5 pt-5">
+                    <div class="text-center">
+                        <img src="https://cdn.dribbble.com/assets/art-banners/romainbriaux-640w-51a20c877f4deef57fbbb82609ae6d846bcd4129f21e21505371255abb3f2f60.webp"
+                            class="delivery-and-payment-section-img" />
+                        <div class="customs-button-alignment mt-2">
+                            <p class="healthy-food-section-author">Art by <a class="healthy-food-section-author"
+                                    style="text-decoration: underline;" href="#">Romain Briaux</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 order-2 order-md-1 banner-top-margin">
+                    <h1 class="healthy-food-section-heading banner-top-margin">Discover the world’s top designers &
+                        creatives</h1>
+                    <p class="healthy-food-section-description mb-4">Dribbble is the leading destination to find &
+                        showcase creative
+                        work and home to the world's best design professionals.</p>
+                    <div class="customs-button-alignment">
+                        <button class="custom-button mb-3">Sign Up</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="explore-menu-section pt-4 pb-2" id="exploreMenuSection">
+        <div class="container-fluid">
+            <div class="row ml-5 mr-5">
+                <div class="col-6 col-lg-2 order-1 mb-4">
+                    <div class="row">
+                        <div class="col-6 col-lg-12">
+                            <div class="dropdown">
+                                <button class="form-control dropdown-toggle" type="button" id="dropdownMenuButton"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Popular
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <a class="dropdown-item" href="#">Popular</a>
+                                    <a class="dropdown-item" href="#">New & Noteworthy</a>
+                                    <a class="dropdown-item" href="#">Goods for sale</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-8 order-3 order-lg-2 mb-4 d-flex flex-row">
+                    <span class="scroll scroll-backward">
+                        <a class="active d-none" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="text-secondary bi bi-arrow-left-circle-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zm3.5 7.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z" />
+                            </svg>
+                        </a>
+                    </span>
+                    <ul class="category-lists">
+                        <li class="category sets-path active">
+                            <a title="All" data-param="category" data-track-sub-nav="true"
+                                class="btn btn-secondary mr-4" href="#">
+                                All
+                            </a>
+                        </li>
+                        <li class="category sets-path">
+                            <a class="text-secondary mr-4" title="Animation" data-param="category"
+                                data-value="animation" data-track-sub-nav="true" href="#">
+                                Animation
+                            </a>
+                        </li>
+                        <li class="category sets-path">
+                            <a class="text-secondary mr-4" title="Animation" data-param="category"
+                                data-value="animation" data-track-sub-nav="true" href="#">
+                                Branding
+                            </a>
+                        </li>
+                        <li class="category sets-path">
+                            <a class="text-secondary mr-4" title="Animation" data-param="category"
+                                data-value="animation" data-track-sub-nav="true" href="#">
+                                Illustration
+                            </a>
+                        </li>
+                        <li class="category sets-path">
+                            <a class="text-secondary mr-4" title="Animation" data-param="category"
+                                data-value="animation" data-track-sub-nav="true" href="#">
+                                Mobile
+                            </a>
+                        </li>
+                        <li class="category sets-path">
+                            <a class="text-secondary mr-4" title="Animation" data-param="category"
+                                data-value="animation" data-track-sub-nav="true" href="#">
+                                Print
+                            </a>
+                        </li>
+                        <li class="category sets-path">
+                            <a class="text-secondary mr-4" title="Animation" data-param="category"
+                                data-value="animation" data-track-sub-nav="true" href="#">
+                                Product Design
+                            </a>
+                        </li>
+                        <li class="category sets-path">
+                            <a class="text-secondary mr-4" title="Animation" data-param="category"
+                                data-value="animation" data-track-sub-nav="true" href="#">
+                                Typography
+                            </a>
+                        </li>
+                        <li class="category sets-path">
+                            <a class="text-secondary mr-4" title="Animation" data-param="category"
+                                data-value="animation" data-track-sub-nav="true" href="#">
+                                Web Design
+                            </a>
+                        </li>
+                    </ul>
+                    <span class="scroll scroll-forward">
+                        <a class="active d-xl-none" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="text-secondary bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z" />
+                            </svg>
+                        </a>
+                    </span>
+                </div>
+                <div class="col-6 col-lg-2 order-2 order-lg-3 mb-4">
+                    <div class="row sorting-button">
+                        <div class="col-6 col-lg-12">
+                            <button class="form-control" type="button" id="dropdownMenuButton2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                                    class="mr-1 text-dark bi bi-filter" viewBox="0 0 16 16">
+                                    <path
+                                        d="M6 10.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1h-3a.5.5 0 0 1-.5-.5zm-2-3a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm-2-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5z" />
+                                </svg>
+                                Filter
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 order-4 mb-4">
+                    <div class="row menu-item-card mb-1">
+                        <div class="col-12">
+                            <img src="https://cdn.dribbble.com/users/1235460/screenshots/12132220/media/b1dd31708105624f0b85ca1ef93e953a.jpg?compress=1&resize=1600x1200"
+                                class="menu-item-image w-100 mb-1" />
+                        </div>
+                        <div class="col-7">
+                            <a href="#">
+                                <img src="https://cdn.dribbble.com/users/4269671/screenshots/11193517/media/09f9ea27812c738d25cf45dd23581c10.jpg?compress=1&resize=1600x1200"
+                                    class="menu-item-image-icon" />
+                                <span class="menu-card-title ml-1">Planning Studio </span>
+                            </a>
+                            <a href="#" class="badge-link">
+                                <span class="badge">TEAM</span>
+                                <!-- <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                        </svg> -->
+                            </a>
+                        </div>
+                        <div class="col-5 d-flex flex-row justify-content-end">
+                            <a href="#" class="">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="#949391"
+                                    class="bi bi-heart-fill" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z" />
+                                </svg>
+                                <span class="menu-card-heart">128</span>
+                            </a>
+                            <a href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="#949391"
+                                    class="bi bi-eye-fill" viewBox="0 0 16 16">
+                                    <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z" />
+                                    <path
+                                        d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8zm8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z" />
+                                </svg>
+                                <span class="menu-card-heart">13.8k</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 order-5 mb-4">
+                    <div class="row menu-item-card mb-1">
+                        <div class="col-12">
+                            <img src="https://cdn.dribbble.com/users/126876/screenshots/9795847/media/3da44476d8fd4a31de2031c504b6c4e4.jpg?compress=1&resize=1600x1200"
+                                class="menu-item-image w-100 mb-1" />
+                        </div>
+                        <div class="col-7">
+                            <a href="#">
+                                <img src="https://cdn.dribbble.com/users/702789/screenshots/14396765/media/07f3a680a15d566d661a96317dcc6be9.png?compress=1&resize=1600x1200"
+                                    class="menu-item-image-icon" />
+                                <span class="menu-card-title ml-1">Keitoto </span>
+                            </a>
+                            <a href="#" class="badge-link">
+                                <span class="badge">TEAM</span>
+                                <!-- <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg> -->
+                            </a>
+                        </div>
+                        <div class="col-5 d-flex flex-row justify-content-end">
+                            <a href="#" class="">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="#949391"
+                                    class="bi bi-heart-fill" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z" />
+                                </svg>
+                                <span class="menu-card-heart">128</span>
+                            </a>
+                            <a href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="#949391"
+                                    class="bi bi-eye-fill" viewBox="0 0 16 16">
+                                    <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z" />
+                                    <path
+                                        d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8zm8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z" />
+                                </svg>
+                                <span class="menu-card-heart">13.8k</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 order-6 mb-4">
+                    <div class="row menu-item-card mb-1">
+                        <div class="col-12">
+                            <img src="https://cdn.dribbble.com/users/501888/screenshots/5439014/unsplash_2_small_4x.png?compress=1&resize=1600x1200"
+                                class="menu-item-image w-100 mb-1" />
+                        </div>
+                        <div class="col-7">
+                            <a href="#">
+                                <img src="https://cdn.dribbble.com/users/6234/screenshots/14218430/media/10bdd017c24aca5d28f8d90fb20fd00c.png?compress=1&resize=1600x1200"
+                                    class="menu-item-image-icon" />
+                                <span class="menu-card-title ml-1">Squarespace </span>
+                            </a>
+                            <a href="#" class="badge-link">
+                                <span class="badge">TEAM</span>
+                                <!-- <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                        </svg> -->
+                            </a>
+                        </div>
+                        <div class="col-5 d-flex flex-row justify-content-end">
+                            <a href="#" class="">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="#949391"
+                                    class="bi bi-heart-fill" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z" />
+                                </svg>
+                                <span class="menu-card-heart">128</span>
+                            </a>
+                            <a href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="#949391"
+                                    class="bi bi-eye-fill" viewBox="0 0 16 16">
+                                    <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z" />
+                                    <path
+                                        d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8zm8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z" />
+                                </svg>
+                                <span class="menu-card-heart">13.8k</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 order-7 mb-4">
+                    <div class="row menu-item-card mb-1">
+                        <div class="col-12">
+                            <img src="https://cdn.dribbble.com/users/1171505/screenshots/15253256/media/9195348e7da3886e8269918b952f0466.png?compress=1&resize=1600x1200"
+                                class="menu-item-image w-100 mb-1" />
+                        </div>
+                        <div class="col-7">
+                            <a href="#">
+                                <img src="https://cdn.dribbble.com/users/204298/screenshots/14177335/media/711540090a3013eff1475f16566d0352.png"
+                                    class="menu-item-image-icon" />
+                                <span class="menu-card-title ml-1">Vektora </span>
+                            </a>
+                            <a href="#" class="badge-link">
+                                <span class="badge">TEAM</span>
+                                <!-- <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg> -->
+                            </a>
+                        </div>
+                        <div class="col-5 d-flex flex-row justify-content-end">
+                            <a href="#" class="">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="#949391"
+                                    class="bi bi-heart-fill" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z" />
+                                </svg>
+                                <span class="menu-card-heart">128</span>
+                            </a>
+                            <a href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="#949391"
+                                    class="bi bi-eye-fill" viewBox="0 0 16 16">
+                                    <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z" />
+                                    <path
+                                        d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8zm8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z" />
+                                </svg>
+                                <span class="menu-card-heart">13.8k</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 order-8 mb-4">
+                    <div class="row menu-item-card mb-1">
+                        <div class="col-12">
+                            <img src="https://cdn.dribbble.com/users/204298/screenshots/14177335/media/711540090a3013eff1475f16566d0352.png"
+                                class="menu-item-image w-100 mb-1" />
+                        </div>
+                        <div class="col-7">
+                            <a href="#">
+                                <img src="https://cdn.dribbble.com/users/1171505/screenshots/15253256/media/9195348e7da3886e8269918b952f0466.png?compress=1&resize=1600x1200"
+                                    class="menu-item-image-icon" />
+                                <span class="menu-card-title ml-1">Sicle Team </span>
+                            </a>
+                            <a href="#" class="badge-link">
+                                <span class="badge">TEAM</span>
+                                <!-- <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                        </svg> -->
+                            </a>
+                        </div>
+                        <div class="col-5 d-flex flex-row justify-content-end">
+                            <a href="#" class="">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="#949391"
+                                    class="bi bi-heart-fill" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z" />
+                                </svg>
+                                <span class="menu-card-heart">128</span>
+                            </a>
+                            <a href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="#949391"
+                                    class="bi bi-eye-fill" viewBox="0 0 16 16">
+                                    <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z" />
+                                    <path
+                                        d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8zm8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z" />
+                                </svg>
+                                <span class="menu-card-heart">13.8k</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 order-9 mb-4">
+                    <div class="row menu-item-card mb-1">
+                        <div class="col-12">
+                            <img src="https://cdn.dribbble.com/users/6234/screenshots/14218430/media/10bdd017c24aca5d28f8d90fb20fd00c.png?compress=1&resize=1600x1200"
+                                class="menu-item-image w-100 mb-1" />
+                        </div>
+                        <div class="col-7">
+                            <a href="#">
+                                <img src="https://cdn.dribbble.com/users/501888/screenshots/5439014/unsplash_2_small_4x.png?compress=1&resize=1600x1200"
+                                    class="menu-item-image-icon" />
+                                <span class="menu-card-title ml-1">Week Wonders</span>
+                            </a>
+                            <a href="#" class="badge-link">
+                                <span class="badge">TEAM</span>
+                                <!-- <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                        </svg> -->
+                            </a>
+                        </div>
+                        <div class="col-5 d-flex flex-row justify-content-end">
+                            <a href="#" class="">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="#949391"
+                                    class="bi bi-heart-fill" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z" />
+                                </svg>
+                                <span class="menu-card-heart">128</span>
+                            </a>
+                            <a href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="#949391"
+                                    class="bi bi-eye-fill" viewBox="0 0 16 16">
+                                    <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z" />
+                                    <path
+                                        d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8zm8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z" />
+                                </svg>
+                                <span class="menu-card-heart">13.8k</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 order-10 mb-4">
+                    <div class="row menu-item-card mb-1">
+                        <div class="col-12">
+                            <img src="https://cdn.dribbble.com/users/702789/screenshots/14396765/media/07f3a680a15d566d661a96317dcc6be9.png?compress=1&resize=1600x1200"
+                                class="menu-item-image w-100 mb-1" />
+                        </div>
+                        <div class="col-7">
+                            <a href="#">
+                                <img src="https://cdn.dribbble.com/users/126876/screenshots/9795847/media/3da44476d8fd4a31de2031c504b6c4e4.jpg?compress=1&resize=1600x1200"
+                                    class="menu-item-image-icon" />
+                                <span class="menu-card-title ml-1">10AM Studio </span>
+                            </a>
+                            <a href="#" class="badge-link">
+                                <span class="badge">TEAM</span>
+                                <!-- <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                        </svg> -->
+                            </a>
+                        </div>
+                        <div class="col-5 d-flex flex-row justify-content-end">
+                            <a href="#" class="">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="#949391"
+                                    class="bi bi-heart-fill" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z" />
+                                </svg>
+                                <span class="menu-card-heart">128</span>
+                            </a>
+                            <a href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="#949391"
+                                    class="bi bi-eye-fill" viewBox="0 0 16 16">
+                                    <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z" />
+                                    <path
+                                        d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8zm8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z" />
+                                </svg>
+                                <span class="menu-card-heart">13.8k</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 order-11 mb-2">
+                    <div class="row menu-item-card mb-1">
+                        <div class="col-12">
+                            <img src="https://cdn.dribbble.com/users/4269671/screenshots/11193517/media/09f9ea27812c738d25cf45dd23581c10.jpg?compress=1&resize=1600x1200"
+                                class="menu-item-image w-100 mb-1" />
+                        </div>
+                        <div class="col-7">
+                            <a href="#">
+                                <img src="https://cdn.dribbble.com/users/1235460/screenshots/12132220/media/b1dd31708105624f0b85ca1ef93e953a.jpg?compress=1&resize=1600x1200"
+                                    class="menu-item-image-icon" />
+                                <span class="menu-card-title ml-1">Picko Lab </span>
+                            </a>
+                            <a href="#" class="badge-link">
+                                <span class="badge">TEAM</span>
+                                <!-- <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                        </svg> -->
+                            </a>
+                        </div>
+                        <div class="col-5 d-flex flex-row justify-content-end">
+                            <a href="#" class="">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="#949391"
+                                    class="bi bi-heart-fill" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z" />
+                                </svg>
+                                <span class="menu-card-heart">128</span>
+                            </a>
+                            <a href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="#949391"
+                                    class="bi bi-eye-fill" viewBox="0 0 16 16">
+                                    <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z" />
+                                    <path
+                                        d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8zm8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z" />
+                                </svg>
+                                <span class="menu-card-heart">13.8k</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="d-flex flex-row justify-content-center mb-2">
+        <button class="custom-button-top custom-button-top-width mt-1">Sign up to continue</button>
+        <a href="#" class="nav-item nav-link signin-text ml-3 mt-2"> or sign in</a>
+    </div>
+    <!-- Footer -->
+    <footer class="text-lg-start bg-light text-muted">
+
+        <!-- Section: Links  -->
+        <section>
+            <div class="container-fluid text-md-start ml-5 mt-4 pt-5">
+                <!-- Grid row -->
+                <div class="row mt-3">
+                    <!-- Grid column -->
+                    <div class="col-12 col-lg-2 mx-auto mb-4">
+                        <div class="row">
+                            <div class="col-6 col-lg-12">
+                                <!-- Content -->
+                                <h6 class="website-icon-color fw-bold">
+                                    <!-- <i class="fas fa-gem me-3"></i> --> dribbble
+                                </h6>
+                                <p>
+                                    Dribbble is the world’s leading community for creatives to share, grow, and get
+                                    hired.</p>
+                                <div>
+                                    <a href="" class="me-4 text-dark mr-3">
+                                        <i class="fab fa-dribbble"></i>
+                                    </a>
+                                    <a href="" class="me-4 text-dark mr-3">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                    <a href="" class="me-4 text-dark mr-3">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                    <a href="" class="me-4 text-dark mr-3">
+                                        <i class="fab fa-google"></i>
+                                    </a>
+                                    <a href="" class="me-4 text-dark mr-3">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-6 col-md-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-dark fw-bold mb-4">
+                            For designers
+                        </h6>
+                        <p>
+                            <a href="#!" class="text-reset">Go Pro!</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Explore design work</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Design blog</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Overtime podcast</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Dribbble meetups</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Playoffs</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Code of conduct</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-6 col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-dark fw-bold mb-4">
+                            Hire designers
+                        </h6>
+                        <p>
+                            <a href="#!" class="text-reset">Post a job opening</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Post a freelance project</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Search for designers</a>
+                        </p>
+                        <h6 class="text-dark fw-bold mb-4 mt-4">
+                            Brands
+                        </h6>
+
+                        <p>
+                            <a href="#!" class="text-reset">Advertise with us</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-6 col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-dark fw-bold mb-4">
+                            Company
+                        </h6>
+                        <p>
+                            <a href="#!" class="text-reset">About</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Careers</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Support</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Media kit</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Testimonials</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">API</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Terms of service</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Privacy policy</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-6 col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-dark fw-bold mb-4">
+                            Directories
+                        </h6>
+                        <p>
+                            <a href="#!" class="text-reset">Design jobs</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Designers for hire</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Freelance designers for hire</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Tags</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Places</a>
+                        </p>
+                        <h6 class="text-dark fw-bold mt-4 mb-4">
+                            Design assets
+                        </h6>
+                        <p>
+                            <a href="#!" class="text-reset">Shop Creative Market</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+                    <!-- Grid column -->
+                    <div class="col-6 col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-dark fw-bold mb-4">
+                            Design Resources
+                        </h6>
+                        <p>
+                            <a href="#!" class="text-reset">Freelancing</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Design Hiring</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Design Portfolio</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Design Industry Trends</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+
+                </div>
+                <!-- Grid row -->
+            </div>
+        </section>
+        <!-- Section: Links  -->
+
+        <!-- Section: Social media -->
+        <section class="d-flex justify-content-center justify-content-lg-between p-4 border-top">
+            <div class="container-fluid">
+                <div class="row ml-3 footer-adjust-to-center">
+                    <!-- Left -->
+                    <div class="col-12 col-md-6 order-1 order-md-1 me-5">
+                        <span>© 2021 Dribbble. All rights reserved.</span>
+                    </div>
+                    <!-- Left -->
+
+                    <!-- Right -->
+                    <div class="col-12 col-md-6 order-2 order-md-2 footer-adjust-to-end">
+                        <a href="#" class="footer-number text-dark">17,148,458<span class="text-secondary"
+                                style="font-weight: 400;"> shorts dribbbled</span></a>
+                        <a href="#" class="me-4">
+                            <i class="footer-dribbble-icon fab fa-dribbble"></i>
+                        </a>
+                    </div>
+                    <!-- Right -->
+
+                </div>
+            </div>
+        </section>
+        <!-- Section: Social media -->
+
+    </footer>
+    <!-- Footer -->
+
+</body>
+
+</html>
